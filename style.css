@@ -17,14 +17,17 @@ body{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .row{
     background-color: var(--dark-desaturated-blue);
-    max-width: 180vh;
+    width: 90%;
     border-radius: 10px;
     --bs-gutter-x: 0 !important;
+}
+.row .col{
+    flex-direction: column;
 }
 .row .card-title{
     color: white;
